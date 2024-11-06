@@ -18,7 +18,7 @@ int main()
 	ball.setCenter(Vector2f(100, 300));
 	ball.setRadius(20);
 	world.AddPhysicsBody(ball);
-	ball.applyImpulse(Vector2f(0.2, 0.9));
+	ball.applyImpulse(Vector2f(0.2, 0.8));
 
 
 	// Create the floor
